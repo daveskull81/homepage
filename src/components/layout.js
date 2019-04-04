@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
+import Nav from './nav'
 import Header from './header'
 import './layout.css'
 
@@ -27,8 +28,11 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
+        <Nav />
+        <br></br>
           {children}
           <footer>
+            <br></br>
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
