@@ -6,10 +6,10 @@ import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`dAVE Inden`, `code`, `portfolio`, `presentations`, `talks`, `blog`, `open source`, `dancing vikings`, `games`, `speaking`, `smartsheet`, `api`, `developer advocate`, `smartsheet api`, `javascript`]} />
+    <SEO title="Home" keywords={[`dAVE Inden`, `code`, `portfolio`, `presentations`, `talks`, `blog`, `open source`, `dancing vikings`, `games`, `speaking`, `api`, `javascript`]} />
     <h1>Hi there!</h1>
     <p>
-      My name is dAVE Inden. I'm a Developer Advocate for <a href="https://www.smartsheet.com/" target="_blank" rel="noopener noreferrer">Smartsheet</a>. I like writing code &amp; talking about code &amp; drinking coffee &amp; making games.
+      My name is dAVE Inden. I like writing code &amp; talking about code &amp; drinking coffee &amp; making games.
       I am currently working mostly in Javascript, Node.js, Express, React, Gatsby, &amp; dabbling in the realm of TypeScript.
     </p>
     <p>
@@ -23,7 +23,6 @@ const IndexPage = () => (
     </p>
     <p>Want to say hello?</p>
     <p>Have a question about one of my projects?</p>
-    <p>Are you curious about working with the Smartsheet API?</p>
     <p>Want me to speak at your meetup, user group, or conference?</p>
     <p>Check out my <Link to="/contact/">Contact</Link> page for ways to get in touch.</p>
   </Layout>
